@@ -26,7 +26,7 @@ ul {
   padding-right: 300px;
   padding-top: 70px;
   display: flex;
-  width: 25%;
+  width: 26%;
   height: 30%;
   position: relative;
 }
@@ -34,7 +34,7 @@ ul {
 #commentlists {
   position: absolute;
   top: 90px;
-  left: 705px;
+  left: 710px;
   background-color: white;
 }
 
