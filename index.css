@@ -9,7 +9,7 @@ ul li {
 
 #mainFrame {
   height: 670px;
-  width: 670px;
+  width: 700px;
   margin: auto;
   border: 1px solid;
   background-color: white;
@@ -79,7 +79,7 @@ img {
 #inputComment {
   margin: auto;
   padding: auto;
-  padding-left: 10px;
+  padding-left: 40px;
   width: 400px;
   text-align: center;
 }
@@ -88,7 +88,7 @@ img {
   margin: auto;
   padding: auto;
   margin-top: 10px;
-  padding-left: 10px;
+  padding-left: 40px;
   width: 400px;
   text-align: center;
 }
