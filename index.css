@@ -26,15 +26,15 @@ ul {
   padding-right: 300px;
   padding-top: 70px;
   display: flex;
-  width: 20%;
-  height: 25%;
+  width: 25%;
+  height: 30%;
   position: relative;
 }
 
 #commentlists {
   position: absolute;
   top: 90px;
-  left: 710px;
+  left: 705px;
   background-color: white;
 }
 
