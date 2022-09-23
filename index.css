@@ -7,7 +7,7 @@ ul li {
   float: left;
 }
 
-#mainFrame {
+#main {
   height: 670px;
   width: 700px;
   margin: auto;
@@ -51,7 +51,7 @@ img {
   resize: none;
 }
 
-#mainPhoto {
+#Photo {
   top: 180px;
   left: 410px;
   position: absolute;
