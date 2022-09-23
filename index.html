@@ -8,21 +8,23 @@
     <title>どしたん？話きこうか？</title>
   </head>
   <body>
-    <div id="main">
-      <div id="title">どしたんじぇねれーたー</div>
-      <ul>
-        <li><textarea id="commentValue" cols="30" rows="5" wrap="hard" disabled></textarea></li>
-        <li><textarea id="commentValue1" cols="30" rows="5" wrap="hard" disabled></textarea></li>
-      </ul>
+      <div id="title">
+        <h1 id="title">どしたんじぇねれーたー</div>
+      </div>
       <div id="Photo">
-        <img src="images/Subject.png" id="yuno"/>
+          <img src="images/Subject.png" id="yuno"/>
+      </div>
+      <div id="commentlists">
+        <ul>
+          <li><textarea id="commentValue"  class="comment" cols="30" rows="5" wrap="hard" disabled></textarea></li>
+          <li><textarea id="commentValue1" class="comment" cols="30" rows="5" wrap="hard" disabled></textarea></li>
+        </ul>
       </div>
       <div id="inputArea">
-        <input type="text" id="inputComment" placeholder="文字を入力して（例：どしたん？" value=""/>
-        <input type="text" id="inputComment1" placeholder="generateボタンを押してね！例：話きこうか？" value=""/>
-        <input type="button" id="btn" value="generate" onclick="changeComment()"/>
+        <input type="text" id="inputComment" class="input" placeholder="文字を入力して 例：どしたん？" value=""/>
+        <input type="text" id="inputComment1" class="input" placeholder="ボタンを押してね! 例 : 話きこか" value=""/>
+        <input type="button" id="btn"  value="ゆうのすけに言わせる" onclick="changeComment()"/>
       </div>
-    </div>
     <script src="index.js"></script>
   </body>
 </html>
